@@ -7,7 +7,7 @@
         <div class="ft01">
             <div class="left">
                 <div class="ft_logo">
-                    <img src="resources/img/bs_logo_w.png" alt="bs_logo_w">
+                    <img src="/resources/img/bs_logo_w.png" alt="bs_logo_w">
                     <!-- <img src="/img/common/ft_logo_deco.png" alt="" class="deco"> -->
                 </div>
             </div>
@@ -20,8 +20,9 @@
         </div>
         <div class="ft02">
             <div class="left">
-                <p>법인명: 주식회사 비에스케미칼 <i></i> 대표자명: 전상탁 <i></i> 사업자 등록번호: 411-81-92539 <br>
-                    울산광역시 청량읍 처용산업3길 135 경공업2동 4층 <i></i> 전화번호: 010-4553-8421 <i></i> 이메일: sales2050@bschem.net
+                <p>법인명: 주식회사 비에스케미칼 <i></i> 대표자명: 전상탁  <br> 사업자 등록번호: 411-81-92539 
+                    <i></i> 전화번호: 010-4553-8421 <i></i> 이메일: sales2050@bschem.net <br>
+                 R&D: 울산광역시 청량읍 처용산업3길 135 경공업2동 4층<i></i> 공장: 충청북도 음성군 금왕읍 각회리 438-1
                 </p>
             </div>
             <div class="right">

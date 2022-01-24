@@ -1,6 +1,9 @@
 package com.bscompany.page;
 
+import java.io.IOException;
+
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -21,11 +24,21 @@ public class IndexController {
 		model.addAttribute(Const.TITLE, "(주)비에스케미칼");
 		model.addAttribute(Const.HEADER, "template/header_template");
 		model.addAttribute(Const.VIEW, "main");
-		
+		model.addAttribute(Const.JS, new String[] {Const.WOW});
 		
 		
 		return ViewRef.MAINTEMP;
-	}
+		
 	
+	}
+	@RequestMapping(value = "/favicon.ico", method = RequestMethod.GET)
+	public void favicon(HttpServletRequest req, HttpServletResponse rep) {
+	try {
+		rep.sendRedirect("/resources/favicon.ico");
+	} catch (IOException e) {
+		e.printStackTrace();
+	}
+}
+	 
 	
 }

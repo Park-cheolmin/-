@@ -17,16 +17,30 @@ public class IntroduceController {
 	@RequestMapping(value="/introduce", method = RequestMethod.GET)
 	public String companyInt(HttpServletRequest req, Model model) {
 		
-		model.addAttribute(Const.CSS, new String[] {Const.COMMON, Const.FOOTER, Const.DEFAULTHEADER, Const.DEFAULTFOOTER, Const.SUB_C});
+		
+		model.addAttribute(Const.CSS, new String[] {Const.COMMON, Const.MAIN, Const.FOOTER, Const.DEFAULTHEADER, Const.DEFAULTFOOTER, Const.SUB_C});
 		model.addAttribute(Const.VIEW, "/introduce/sub_c");
 		model.addAttribute(Const.TITLE, "(주)비에스케미칼");
 		model.addAttribute(Const.HEADER, "template/header_template");
 		model.addAttribute(Const.FOOTER, "template/footer_template");
+		model.addAttribute(Const.JS, new String[] {Const.WOW});
 		
 		
 		return ViewRef.SUBTEMP;
 	}
+	
+	@RequestMapping(value="/business_area", method = RequestMethod.GET)
+	public String businessArea(HttpServletRequest req, Model model) {
 		
+		model.addAttribute(Const.CSS, new String[] {Const.COMMON, Const.MAIN, Const.FOOTER, Const.DEFAULTHEADER, Const.DEFAULTFOOTER, Const.SUB_C, Const.SUB_CASE});
+		model.addAttribute(Const.VIEW, "/introduce/sub_case");
+		model.addAttribute(Const.TITLE, "(주)비에스케미칼");
+		model.addAttribute(Const.HEADER, "template/header_template");
+		model.addAttribute(Const.FOOTER, "template/footer_template");
+		model.addAttribute(Const.JS, new String[] {Const.WOW});
+		
+		return ViewRef.SUBTEMP;
+	}
 	
 }
 

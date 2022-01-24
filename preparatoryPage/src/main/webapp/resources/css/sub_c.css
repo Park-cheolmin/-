@@ -2,19 +2,19 @@
 
 .sub_top{width: 1400px; padding: 170px 0 50px;  margin: 0 auto;}
 .sub_top .sub_bt{ font-size: 75px; line-height: 1.4; background: linear-gradient(to right bottom,#3e9aeb,#06376f,#06376f,#06376f);
-    -webkit-background-clip: text; color: transparent; font-family: 'IBMPlexSansKR-Bold';}
+    -webkit-background-clip: text; color: transparent; font-family: 'Play', sans-serif; font-weight: bold;}
 .sub_top p{ font-size: 25px; font-weight: 600; color: #6c6c6c;}
 .bg{ width: 100%; min-height: 100%; background-repeat : no-repeat; background-size : cover; background: url(../img/ex2.png) no-repeat center center fixed; }
-.section_c1{ width: 1400px; height: 100%;   margin: 0 auto;  padding: 9% 0 6%;}
+.section_c1{ width: 1400px; height: 100%;   margin: 0 auto;  padding: 8% 0 6%;}
 .section_c1 .con1{ width: 100%; display: inline-block; margin-bottom: 180px;}
-.section_c1 .con1 .rightbox{ width: 81%; height: 100%; padding-left: calc(((100% - (20px * 7)) / 10) * 2 + (20px * 3));}
-.section_c1 .sub_title{ font-size: 35px; font-family: 'ROEHOE-CHAN'; float: left; color: #005391; font-weight: 600;}
+.section_c1 .con1 .rightbox{ width: 78%; height: 100%; padding-left: calc(((100% - (20px * 7)) / 10) * 2 + (20px * 3));}
+.section_c1 .sub_title{ font-size: 35px; line-height: 1.4; font-family: 'ROEHOE-CHAN'; float: left; color: #005391; font-weight: 600;}
 .section_c1 .c1p1{ font-size: 20px; line-height: 1.9; word-break: keep-all;}
 .section_c1 .c_name{ padding-top: 60px; display: inline-block; font-weight: 600; margin-right: 60px;}
 .section_c1 .rightbox .sign{ font-family: 'ROEHOE-CHAN'; font-size: 40px;}
 
 
-.section_c1 .con2{ width: 100%; }
+.section_c1 .con2{ width: 100%; margin-bottom: 180px;}
 .section_c1 .con2 .rightbox{width: 81%; height: 100%; padding-left: calc(((100% - (20px * 7)) / 10) * 2 + (20px * 3));}
 .section_c1 .rightbox .circle_box{ width: 100%; height: 100%;  }
 .section_c1 .con2 .circle1{ width: 27%;  height: 300px; border-radius: 50%; background: url(../img/DSC_0230.JPG) no-repeat; background-size: 100% 101%;
@@ -29,3 +29,20 @@
     display: inline-block; margin-right: 3%; margin-bottom: 3%;}
 .section_c1 .con2 .circle6{ width: 27%; height: 300px;  border-radius: 50%; background: url(../img/DSC_04.JPG) no-repeat; background-size: 105% 101%;
     display: inline-block; margin-bottom: 3%; }
+    
+
+/* sub_business */
+
+.co2_img01{width: 100%; margin:25px 0;}
+.gp_img01{width: 100%; margin:25px 0; border-radius: 20px;}
+.rightbox .gp_box2 p{font-weight: 900; font-size: 25px; line-height: 1.9; margin: 40px 0 25px;}
+.rightbox .gp_box2 ul li{font-size: 20px; border: 1px solid #c3c3c3; padding: 25px 25px; border-radius: 50px; margin-bottom: 15px; text-align: center;
+    margin-right: 20px; display: inline-block; width: 43.4%;}
+
+.section_c1 .con3{ width: 100%; margin-bottom: 100px;}
+.section_c1 .con3 .rightbox{ width: 81%; height: 100%; padding-left: calc(((100% - (20px * 7)) / 10) * 2 + (20px * 3));}
+
+.con3 .rightbox .pt_box2 p{font-weight: 900; font-size: 25px; line-height: 1.9; margin: 40px 0 25px;}
+.ptfe01{width: 30%;float: left;margin-right: 5em;}
+.pt_box2 ul li{font-size: 20px;margin-bottom: 15px;list-style: disc;line-height: 40px;word-break: keep-all;}
+.pt_bold{font-weight: 900; color: #0f467a;}

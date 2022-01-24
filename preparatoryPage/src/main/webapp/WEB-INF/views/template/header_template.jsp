@@ -3,10 +3,10 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>  
 
 <div class="header">
-    <div class="logo"></div>
+    <div class="logo"><a href="/main"><img src="/resources/img/bs_logo.png" alt="bs_logo"></a></div>
     <div class="nav">
         <ul>
-            <li><a href="company/introduce">회사소개</a>
+            <li><a href="/company/introduce">About Us</a>
                 <!-- <div class="submenu">
                     <ul>
                         <li><a href="#">submenu1-1</a></li>
@@ -16,7 +16,7 @@
                     </ul>
                 </div> -->
             </li>
-            <li><a href="#">사업영역</a>
+            <li><a href="/company/business_area">Business Area</a>
             <!-- <div class="submenu">
                     <ul>
                         <li><a href="#">submenu2-1</a></li>

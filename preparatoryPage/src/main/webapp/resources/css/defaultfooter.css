@@ -11,10 +11,15 @@
 #footer .ft02 .left{float: left}
 #footer .ft02 .left p{color: #202d2d; font-size: 16px; letter-spacing: -0.7px; color: #fff; font-weight: 300; line-height: 34px; }
 #footer .ft02 .left p i{display: inline-block; width: 1px; height: 11px; background: #c0cac9; margin: 0 12px; position: relative; }
-#footer .ft02 .right{float: right;text-align: right}
+#footer .ft02 .right{float: right;text-align: right; margin-top: 30px;}
 #footer .ft02 .right ul:after{content: ''; display: block; clear: both}
 #footer .ft02 .right ul li{display: inline-block}
 #footer .ft02 .right ul li:nth-child(1){margin-right: 30px;}
 #footer .ft02 .right ul li a{display: block; line-height: 34px; color: #fff; font-size: 16px; letter-spacing: -0.5px; transition: 0.5s}
 #footer .ft02 .right ul li:hover a{color: #5ef0eb}
 address{color: #a7a7a7; line-height: 34px;}
+
+
+
+
+
